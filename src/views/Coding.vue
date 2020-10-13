@@ -153,7 +153,7 @@ export default {
       }
 
       else if (this.score >= 6 && this.score <= 9) {
-        this.finalWords = "you know most of your stuff, you must be interested in coding or you ar a coder. Much nice"
+        this.finalWords = "you know most of your stuff, you must be interested in coding or you ar a coder. Much nice";
       }
 
       else if (this.score == 10) {

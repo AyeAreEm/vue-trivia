@@ -24,6 +24,11 @@ const routes = [
     path: '/history',
     name: 'History',
     component: () => import('../views/History.vue')
+  },
+  {
+    path: '/general',
+    name: 'General',
+    component: () => import('../views/General.vue')
   }
 ]
 

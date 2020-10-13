@@ -102,7 +102,7 @@
     <h3>a. Sept. 8, 1944</h3>
     <h3>b. Aug. 6, 1945</h3>
     <h3>c. Dec. 13, 1940</h3>
-    <h3>d. July 24, 143</h3>
+    <h3>d. July 24, 1433</h3>
     <button class="options" @click="stage_10 = true" :disabled="stage_10">A</button>
     <button class="options" @click="score++; stage_10 = true" :disabled="stage_10">B</button>
     <button class="options" @click="stage_10 = true" :disabled="stage_10">C</button>
@@ -148,7 +148,7 @@ export default {
       }
 
       else if (this.score >= 6 && this.score <= 9) {
-        this.finalWords = "yo, you are a normal human"
+        this.finalWords = "yo, you are a normal human";
       }
 
       else if (this.score == 10) {

@@ -158,7 +158,7 @@ export default {
       }
 
       else if (this.score >= 6 && this.score <= 9) {
-        this.finalWords = "yo, you are a normal human"
+        this.finalWords = "yo, you are a normal human";
       }
 
       else if (this.score == 10) {
