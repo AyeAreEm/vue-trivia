@@ -16,7 +16,7 @@
     <h2>What is a Black Hole?</h2>
     <h3>a. It's something that not even light can escape from</h3>
     <h3>b. It's an area in space with no stars</h3>
-    <h3>c. It's the opposite of a star, it doens't give out light but planets orbit it. It doesn't kill other stars as well</h3>
+    <h3>c. It's the opposite of a star, it doesn't give out light but planets orbit it. It doesn't kill other stars as well</h3>
     <h3>d. It's something that gives out particles</h3>
     <button class="options" @click="score++; stage_2 = true" :disabled="stage_2">A</button>
     <button class="options" @click="stage_2 = true" :disabled="stage_2">B</button>
@@ -68,7 +68,7 @@
   </div>
 
   <div class="main">
-    <h2>Which galazy are we in?</h2>
+    <h2>Which galaxy are we in?</h2>
     <h3>a. Andromeda</h3>
     <h3>b. Tadpole</h3>
     <h3>c. Milky Way</h3>
@@ -103,7 +103,7 @@
     <h2>What is the biggest known star?</h2>
     <h3>a. Our sun</h3>
     <h3>b. UY Scuti</h3>
-    <h3>c. VY Canis Marjoris</h3>
+    <h3>c. VY Canis Majoris</h3>
     <h3>d. WOH 64</h3>
     <button class="options" @click="stage_9 = true" :disabled="stage_9">A</button>
     <button class="options" @click="score++; stage_9 = true" :disabled="stage_9">B</button>
@@ -150,7 +150,7 @@ export default {
       document.getElementById("viewscore").scrollIntoView();
 
       if (this.score <= 4) {
-        this.finalWords = "you know nothing about Earth or anythin in space man, learn more stuff";
+        this.finalWords = "you know nothing about Earth or anything in space man, learn more stuff";
       }
 
       else if (this.score == 5) {

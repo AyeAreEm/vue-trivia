@@ -32,7 +32,7 @@
     <h2>How did Cleopatra die?</h2>
     <h3>a. Suicide</h3>
     <h3>b. Death by Medjay (ancient egyptian police)</h3>
-    <h3>c. Julius Ceaser killed her</h3>
+    <h3>c. Julius Caesar killed her</h3>
     <h3>d. Old age</h3>
     <button class="options" @click="score++; stage_3 = true" :disabled="stage_3">A</button>
     <button class="options" @click="stage_3 = true" :disabled="stage_3">B</button>
@@ -68,7 +68,7 @@
 
   <div class="main">
     <h2>True or False:</h2>
-    <h3>Leonardo Divinci invented the tank</h3>
+    <h3>Leonardo da Vinci invented the tank</h3>
     <button class="options" @click="score++; stage_7 = true" :disabled="stage_7">True</button>
     <button class="options" @click="stage_7 = true" :disabled="stage_7">False</button>
   </div>

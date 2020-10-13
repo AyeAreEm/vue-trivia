@@ -41,9 +41,9 @@
   </div>
 
   <div class="main">
-    <h2>What is the difference between an Arduino and Rasberry Pi?</h2>
-    <h3>a. Arduino is a calculator and Rasberry Pi is a computer</h3>
-    <h3>b. Arduino is a computer and Rasberry Pi is a calculator</h3>
+    <h2>What is the difference between an Arduino and Raspberry Pi?</h2>
+    <h3>a. Arduino is a calculator and Raspberry Pi is a computer</h3>
+    <h3>b. Arduino is a computer and Raspberry Pi is a calculator</h3>
     <h3>c. They are the same but use a different language</h3>
     <h3>d. They are completely the same</h3>
     <button class="options" @click="score++; stage_4 = true" :disabled="stage_4">A</button>
@@ -60,7 +60,7 @@
   </div>
 
   <div class="main">
-    <h2>Which one of these languages complie on run time?</h2>
+    <h2>Which one of these languages compile on run time?</h2>
     <h3>a. C++</h3>
     <h3>b. C</h3>
     <h3>c. Java</h3>
@@ -86,7 +86,7 @@
   <div class="main">
     <h2>What does a compiler do?</h2>
     <h3>a. It compiles code into a zip-like folder</h3>
-    <h3>b. It copmiles code into a .exe</h3>
+    <h3>b. It compiles code into a .exe</h3>
     <h3>c. It compiles code into machine code for the computer to read</h3>
     <h3>d. It can do all of them and you get to choose</h3>
     <button class="options" @click="stage_8 = true" :disabled="stage_8">A</button>
